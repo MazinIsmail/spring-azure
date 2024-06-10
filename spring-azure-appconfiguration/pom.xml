@@ -29,6 +29,12 @@
 			<artifactId>spring-cloud-azure-appconfiguration-config-web</artifactId>
 		</dependency>
 
+		<!--This is for feature flags-->
+		<dependency>
+			<groupId>com.azure.spring</groupId>
+			<artifactId>spring-cloud-azure-feature-management-web</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
